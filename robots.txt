@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://chally25.github.io/succeedwithchally-site/sitemap.xml
