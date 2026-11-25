@@ -271,7 +271,7 @@ h3 {
 .hero-grid {
   display: grid;
   gap: 1.8rem;
-  align-items: center;
+  align-items: start;
 }
 .hero-photo {
   margin: 0;
@@ -315,6 +315,49 @@ h3 {
 .hero-chips a:hover {
   border-color: var(--terracotta);
   color: var(--terracotta-dark);
+}
+
+.hero-intro {
+  margin: 0 0 1.15rem;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  max-width: 40rem;
+  overflow-wrap: break-word;
+}
+
+.author-block {
+  margin: 0 0 1.35rem;
+  padding: 1rem 1.1rem 1.15rem;
+  background: var(--white);
+  border: 1px solid var(--rule);
+  border-left: 4px solid var(--gold);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(43, 33, 24, 0.05);
+  max-width: 40rem;
+}
+
+.author-title {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 1.12rem;
+  letter-spacing: -0.02em;
+  line-height: 1.3;
+  margin: 0 0 0.35rem;
+  overflow-wrap: break-word;
+}
+
+.author-sub {
+  margin: 0 0 0.9rem;
+  color: var(--muted);
+  font-size: 0.98rem;
+  line-height: 1.5;
+  overflow-wrap: break-word;
+}
+
+.author-block .btn {
+  max-width: 100%;
+  white-space: normal;
+  text-align: center;
 }
 
 /* Lists */
@@ -551,7 +594,7 @@ h3 {
     grid-template-columns: 1.05fr 0.95fr;
     gap: 3.5rem;
   }
-  .hero-photo { max-width: none; justify-self: end; }
+  .hero-photo { max-width: none; justify-self: end; margin-top: 0.35rem; }
   .gallery-seller { grid-template-columns: repeat(3, 1fr); }
   .gallery-seller .span-2 { grid-column: span 2; }
   .gallery-luxury { grid-template-columns: repeat(3, 1fr); }
