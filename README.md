@@ -1,6 +1,6 @@
 # Succeed with Chally
 
-Public website for [Challenor Jack](https://succeedwithchally.com/) — real estate, CDJ Home Solutions, and luxury stays.
+Public website for [Challenor Jack](https://succeedwithchally.com/) — real estate, CDJ Home Solutions, and Island Getaway.
 
 This GitHub Pages preview is served at:
 
