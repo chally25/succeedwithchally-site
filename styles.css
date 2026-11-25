@@ -426,6 +426,10 @@ h3 {
 .gallery-luxury .is-wide { grid-column: 1 / -1; }
 .gallery-luxury .is-wide img { aspect-ratio: 16 / 10; object-position: center; }
 .gallery-luxury .is-land img { aspect-ratio: 4 / 3; object-position: center; }
+
+.gallery-trio {
+  grid-template-columns: 1fr;
+}
 .gallery figcaption {
   padding: 0.7rem 0.85rem 0.9rem;
   font-size: 0.86rem;
